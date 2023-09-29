@@ -1,0 +1,41 @@
+.menu, a.nav-link, a.nav-link:hover {
+  font-family: IranSansX;
+  font-size: 14px;
+  color: white;
+  border-bottom: 1px solid #060c0800; }
+
+.menu-hover, a.nav-link:hover {
+  border-bottom: 1px solid #ddc64c; }
+
+.menu-focus {
+  background-color: #ddc64c;
+  border-bottom: 1px solid #ddc64c;
+  color: #ffffff; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #060c08; }
+
+nav.navbar {
+  background-color: #203a27; }
+
+button.navbar {
+  border: unset;
+  background-color: unset; }
+  button.navbar span {
+    color: #ffffff;
+    width: 48px;
+    height: 48px; }
+    button.navbar span img {
+      width: 48px;
+      height: 48px;
+      color: #ffffff; }
+
+.navbar-toggler {
+  padding: 0; }
+
+/*# sourceMappingURL=navbar.css.map */

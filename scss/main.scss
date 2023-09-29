@@ -1,0 +1,33 @@
+@import url(./partials/navbar/navbar.css);
+
+$gold-1: #ddc64c;
+$gold-2: #b19c2d;
+$gold-3: #a18e29;
+
+$green-1: #203a27;
+$green-2: #132318;
+$green-3: #0d1810;
+$green-4: #060c08;
+
+$white: #ffffff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $green-4;
+  font-family: IranSansX;
+  font-weight: 400;
+}
+
+body::-webkit-scrollbar {
+  width: 4px;
+  background-color: $green-4;
+}
+body::-webkit-scrollbar-thumb {
+  width: 8px;
+  background-color: $gold-1;
+}

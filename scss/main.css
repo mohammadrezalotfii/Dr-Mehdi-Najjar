@@ -1,0 +1,20 @@
+@import url(./partials/navbar/navbar.css);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-color: #060c08;
+  font-family: IranSansX;
+  font-weight: 400; }
+
+body::-webkit-scrollbar {
+  width: 4px;
+  background-color: #060c08; }
+
+body::-webkit-scrollbar-thumb {
+  width: 8px;
+  background-color: #ddc64c; }
+
+/*# sourceMappingURL=main.css.map */

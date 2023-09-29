@@ -1,0 +1,68 @@
+$gold-1: #ddc64c;
+$gold-2: #b19c2d;
+$gold-3: #a18e29;
+
+$green-1: #203a27;
+$green-2: #132318;
+$green-3: #0d1810;
+$green-4: #060c08;
+
+$white: #ffffff;
+
+.menu {
+  font-family: IranSansX;
+  font-size: 14px;
+  color: white;
+  border-bottom: 1px solid #060c0800;
+}
+
+.menu-hover {
+  border-bottom: 1px solid $gold-1;
+}
+
+.menu-focus{
+  background-color: $gold-1;
+  border-bottom: 1px solid $gold-1;
+  color: #ffffff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $green-4;
+}
+
+a.nav-link {
+  @extend .menu;
+}
+
+a.nav-link:hover {
+  @extend .menu, .menu-hover;
+}
+
+nav.navbar {
+  background-color: $green-1;
+}
+
+button.navbar {
+  border: unset;
+  background-color: unset;
+  span{
+    color: #ffffff;
+    width: 48px;
+    height: 48px;
+    img{
+      width: 48px;
+      height: 48px;
+      color: #ffffff;
+    }
+  }
+}
+
+.navbar-toggler {
+  padding: 0;
+}

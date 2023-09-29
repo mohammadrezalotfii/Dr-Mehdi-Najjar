@@ -1,0 +1,70 @@
+$gold-1: #ddc64c;
+$gold-2: #b19c2d;
+$gold-3: #a18e29;
+
+$green-1: #203a27;
+$green-2: #132318;
+$green-3: #0d1810;
+$green-4: #060c08;
+$white: #ffffff;
+
+.btn {
+    background-color: $gold-1;
+    padding: 8px 28px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $gold-1;
+    font-size: 14px;
+    color: #ffffff;
+    transition: all 300ms linear;
+}
+
+.btn-hover{
+    background-color: $gold-3;
+    border: 1px solid $gold-3;
+}
+
+.btn-outline {
+    background-color: unset;
+    padding: 8px 28px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $gold-1;
+    font-size: 14px;
+    color: $gold-1;
+    transition: all 300ms linear;
+}
+
+div.header{
+    position: relative;
+    height: 400px;
+    background-color: #a4a4a4;
+    margin-bottom: 148px;
+    div:nth-child(1){
+        height: fit-content;
+        background-color: $green-1;
+        color: white;
+        position: absolute;
+        transform: translate(50%);
+        bottom: -20%;
+        right: 50%;
+        p{
+            font-size: 14px;
+            text-align: justify;
+        }
+        button:nth-child(1){
+            @extend .btn;
+        }
+        button:nth-child(1):hover{
+            @extend .btn , .btn-hover;
+        }
+        button:nth-child(2){
+            @extend .btn-outline
+        }
+        button:nth-child(2):hover{
+            @extend .btn , .btn-hover;
+        }
+    }
+}
