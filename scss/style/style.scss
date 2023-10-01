@@ -124,7 +124,6 @@ $white: #ffffff;
 	color: $green-4;
 }
 
-
 *{
 	margin: 0;
 	padding: 0;
@@ -132,10 +131,12 @@ $white: #ffffff;
 }
 
 body{
+	font-family: IranSansX;
 	direction: rtl;
 }
 
 h2{
+	font-family: IranSansX;
 	color: white;
 	font-size: 20px;
 	font-weight: 600;
@@ -143,11 +144,13 @@ h2{
 }
 
 h3{
+	font-family: IranSansX;
 	font-size: 16px;
 	color: $green-4;
 }
 
 p{
+	font-family: IranSansX;
 	color: white;
 	font-size: 14px;
 	line-height: 24px;
