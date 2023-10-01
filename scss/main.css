@@ -6,11 +6,6 @@
   padding: 0;
   box-sizing: border-box; }
 
-body {
-  background-color: #060c08;
-  font-family: IRANSansX;
-  font-weight: 400; }
-
 body::-webkit-scrollbar {
   width: 4px;
   background-color: #060c08; }
