@@ -1,4 +1,6 @@
 @import url(./partials/navbar/navbar.css);
+@import url(./partials/index/preheader/preheader.css);
+@import url(./partials/index/header/header.css);
 * {
   margin: 0;
   padding: 0;

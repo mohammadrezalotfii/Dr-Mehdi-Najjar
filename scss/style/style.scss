@@ -70,6 +70,61 @@
 	url('fonts/woff2/IRANSansX-Regular.woff2') format('woff2');	
 }
 
+$gold-1: #ddc64c;
+$gold-2: #b19c2d;
+$gold-3: #a18e29;
+
+$green-1: #203a27;
+$green-2: #132318;
+$green-3: #0d1810;
+$green-4: #060c08;
+$white: #ffffff;
+
+
+.btn {
+    background-color: $gold-1;
+    padding: 8px 28px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $gold-1;
+    font-size: 14px;
+    color: #ffffff;
+    transition: all 100ms linear;
+}
+
+.btn-hover{
+    background-color: $gold-3;
+    border: 1px solid $gold-3;
+	color: white;
+}
+
+.btn-outline {
+    background-color: unset;
+    padding: 8px 28px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid $gold-1;
+    font-size: 14px;
+    color: $gold-1;
+    transition: all 100ms linear;
+}
+
+.h2{
+	background-color: $green-1;
+	color: white;
+	font-size: 20px;
+	padding: 4px 16px;
+	margin-bottom: 16px;
+	display: inline-block;
+}
+
+.plight{
+	color: $green-4;
+}
+
+
 *{
 	margin: 0;
 	padding: 0;
@@ -78,4 +133,31 @@
 
 body{
 	direction: rtl;
+}
+
+h2{
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 28px;
+}
+
+h3{
+	font-size: 16px;
+	color: $green-4;
+}
+
+p{
+	color: white;
+	font-size: 14px;
+	line-height: 24px;
+	text-align: justify;
+}
+
+button {
+	@extend .btn
+}
+
+button:hover{
+	@extend .btn-hover
 }

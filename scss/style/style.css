@@ -43,6 +43,44 @@
   font-style: normal;
   font-weight: normal;
   src: url("fonts/woff/IRANSansX-Regular.woff") format("woff"), url("fonts/woff2/IRANSansX-Regular.woff2") format("woff2"); }
+.btn, button {
+  background-color: #ddc64c;
+  padding: 8px 28px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddc64c;
+  font-size: 14px;
+  color: #ffffff;
+  transition: all 100ms linear; }
+
+.btn-hover, button:hover {
+  background-color: #a18e29;
+  border: 1px solid #a18e29;
+  color: white; }
+
+.btn-outline {
+  background-color: unset;
+  padding: 8px 28px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddc64c;
+  font-size: 14px;
+  color: #ddc64c;
+  transition: all 100ms linear; }
+
+.h2 {
+  background-color: #203a27;
+  color: white;
+  font-size: 20px;
+  padding: 4px 16px;
+  margin-bottom: 16px;
+  display: inline-block; }
+
+.plight {
+  color: #060c08; }
+
 * {
   margin: 0;
   padding: 0;
@@ -50,5 +88,21 @@
 
 body {
   direction: rtl; }
+
+h2 {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px; }
+
+h3 {
+  font-size: 16px;
+  color: #060c08; }
+
+p {
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify; }
 
 /*# sourceMappingURL=style.css.map */
