@@ -1,5 +1,5 @@
-.menu, a.nav-link, a.nav-link:hover {
-  font-family: IranSansX;
+.menu, a.nav-link:hover {
+  font-family: IRANSANS500;
   font-size: 14px;
   color: white;
   border-bottom: 1px solid #060c0800; }

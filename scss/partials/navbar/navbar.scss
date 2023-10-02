@@ -10,7 +10,7 @@ $green-4: #060c08;
 $white: #ffffff;
 
 .menu {
-  font-family: IranSansy;
+  font-family: IRANSANS500;
   font-size: 14px;
   color: white;
   border-bottom: 1px solid #060c0800;
@@ -36,9 +36,9 @@ body {
   background-color: $green-4;
 }
 
-a.nav-link {
-  @extend .menu;
-}
+// a.nav-link {
+//   @extend .menu;
+// }
 
 a.nav-link:hover {
   @extend .menu, .menu-hover;

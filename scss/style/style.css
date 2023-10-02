@@ -1,49 +1,14 @@
 @font-face {
-  font-family: IRANSansy;
-  font-style: normal;
-  font-weight: 100;
-  src: url("/fonts/woff/IRANSansX-Thin.woff") format("woff"), url("/fonts/woff2/IRANSansX-Thin.woff2") format("woff2"); }
+  font-family: IRANSANS400;
+  src: url(../../fonts/woff/IRANSansX-Regular.woff); }
 @font-face {
-  font-family: IRANSansy;
-  font-style: normal;
-  font-weight: 200;
-  src: url("/fonts/woff/IRANSansX-UltraLight.woff") format("woff"), url("/fonts/woff2/IRANSansX-UltraLight.woff2") format("woff2"); }
+  font-family: IRANSANS500;
+  src: url(../../fonts/woff/IRANSansX-Medium.woff); }
 @font-face {
-  font-family: IRANSansy;
-  font-style: normal;
-  font-weight: 300;
-  src: url("/fonts/woff/IRANSansX-Light.woff") format("woff"), url("/fonts/woff2/IRANSansX-Light.woff2") format("woff2"); }
-@font-face {
-  font-family: IRANSansy;
-  font-style: normal;
-  font-weight: 500;
-  src: url("/fonts/woff/IRANSansX-Medium.woff") format("woff"), url("/fonts/woff2/IRANSansX-Medium.woff2") format("woff2"); }
-@font-face {
-  font-family: IRANSansy;
-  font-style: normal;
-  font-weight: 600;
-  src: url("/fonts/woff/IRANSansX-DemiBold.woff") format("woff"), url("/fonts/woff2/IRANSansX-DemiBold.woff2") format("woff2"); }
-@font-face {
-  font-family: IRANSansy;
-  font-style: normal;
-  font-weight: 800;
-  src: url("/fonts/woff/IRANSansX-ExtraBold.woff") format("woff"), url("/fonts/woff2/IRANSansX-ExtraBold.woff2") format("woff2"); }
-@font-face {
-  font-family: IRANSansy;
-  font-style: normal;
-  font-weight: 900;
-  src: url("/fonts/woff/IRANSansX-Black.woff") format("woff"), url("/fonts/woff2/IRANSansX-Black.woff2") format("woff2"); }
-@font-face {
-  font-family: IRANSansy;
-  font-style: normal;
-  font-weight: 700;
-  src: url("/fonts/woff/IRANSansX-Bold.woff") format("woff"), url("/fonts/woff2/IRANSansX-Bold.woff2") format("woff2"); }
-@font-face {
-  font-family: IRANSansy;
-  font-style: normal;
-  font-weight: normal;
-  src: url("/fonts/woff/") format("woff"), url("fonts/woff2/IRANSansX-Regular.woff2") format("woff2"); }
-.btn, button {
+  font-family: IRANSANS600;
+  src: url(../../fonts/woff/IRANSansX-DemiBold.woff); }
+.btnn {
+  font-family: IRANSANS500;
   background-color: #ddc64c;
   padding: 8px 28px;
   display: inline-flex;
@@ -54,12 +19,14 @@
   color: #ffffff;
   transition: all 100ms linear; }
 
-.btn-hover, button:hover {
+.btn-hover {
+  font-family: IRANSANS500;
   background-color: #a18e29;
   border: 1px solid #a18e29;
   color: white; }
 
 .btn-outline {
+  font-family: IRANSANS500;
   background-color: unset;
   padding: 8px 28px;
   display: inline-flex;
@@ -79,7 +46,21 @@
   display: inline-block; }
 
 .plight {
-  color: #060c08; }
+  color: #09110b; }
+
+.menu {
+  font-family: IRANSANS500;
+  font-size: 14px;
+  color: white;
+  border-bottom: 1px solid #060c0800; }
+
+.menu-hover {
+  border-bottom: 1px solid #ddc64c; }
+
+.menu-focus {
+  background-color: #ddc64c;
+  border-bottom: 1px solid #ddc64c;
+  color: white; }
 
 * {
   margin: 0;
@@ -88,20 +69,22 @@
 
 body {
   direction: rtl;
-  font-family: IRANSansy;
-  background-color: #060c08; }
+  background-color: #09110b; }
 
 h2 {
+  font-family: IRANSANS600;
   color: white;
   font-size: 20px;
   font-weight: 600;
   line-height: 28px; }
 
 h3 {
+  font-family: IRANSANS600;
   font-size: 16px;
-  color: #060c08; }
+  color: #09110b; }
 
 p {
+  font-family: IRANSANS400;
   color: white;
   font-size: 14px;
   line-height: 24px;

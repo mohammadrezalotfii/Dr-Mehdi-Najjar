@@ -1,6 +1,7 @@
 @import url(./partials/navbar/navbar.css);
 @import url(./partials/index/preheader/preheader.css);
 @import url(./partials/index/header/header.css);
+@import url(./style/style.css);
 * {
   margin: 0;
   padding: 0;
@@ -8,7 +9,7 @@
 
 body::-webkit-scrollbar {
   width: 4px;
-  background-color: #060c08; }
+  background-color: #0d1810; }
 
 body::-webkit-scrollbar-thumb {
   width: 8px;
