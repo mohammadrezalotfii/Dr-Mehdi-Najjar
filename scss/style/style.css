@@ -1,12 +1,16 @@
 @font-face {
   font-family: IRANSANS400;
-  src: url(../../fonts/woff/IRANSansX-Regular.woff); }
+  src: url(../../fonts/woff/IRANSansX-Regular.woff);
+}
 @font-face {
   font-family: IRANSANS500;
-  src: url(../../fonts/woff/IRANSansX-Medium.woff); }
+  src: url(../../fonts/woff/IRANSansX-Medium.woff);
+}
 @font-face {
   font-family: IRANSANS600;
-  src: url(../../fonts/woff/IRANSansX-DemiBold.woff); }
+  src: url(../../fonts/woff/IRANSansX-DemiBold.woff);
+}
+
 .btnn {
   font-family: IRANSANS500;
   background-color: #ddc64c;
