@@ -45,9 +45,6 @@
   margin-bottom: 16px;
   display: inline-block; }
 
-.plight {
-  color: #09110b; }
-
 .menu {
   font-family: IRANSANS500;
   font-size: 14px;
@@ -81,7 +78,7 @@ h2 {
 h3 {
   font-family: IRANSANS600;
   font-size: 16px;
-  color: #09110b; }
+  color: white; }
 
 p {
   font-family: IRANSANS400;

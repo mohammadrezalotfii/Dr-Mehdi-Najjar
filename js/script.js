@@ -11,7 +11,7 @@ document.getElementById("contact-us-btn").classList.add("btnn");
 // first outline button in header section
 let btnOut = document.getElementById("about-us-outline-btn");
 btnOut.addEventListener("click", () => {
-    window.location("");
+  window.location("");
 });
 btnOut.addEventListener("mouseover", () => {
   btnOut.classList.add("btn-hover");
@@ -41,3 +41,13 @@ btnOut2.addEventListener("mouseout", () => {
 });
 document.getElementById("about-us-outline-btn2").classList.add("btn-outline");
 
+// service button
+let sbtn = document.querySelectorAll("div.incart > button");
+sbtn.forEach(function(elem){
+  elem.addEventListener("mouseover",()=>{
+    elem.classList.add("btn-hover");
+  })
+  elem.addEventListener("mouseout",()=>{
+    elem.classList.remove("btn-hover");
+  })
+})
