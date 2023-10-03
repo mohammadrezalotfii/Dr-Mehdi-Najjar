@@ -1,16 +1,12 @@
 @font-face {
-  font-family: IRANSANS400;
-  src: url(../../fonts/woff/IRANSansX-Regular.woff);
-}
-@font-face {
   font-family: IRANSANS500;
-  src: url(../../fonts/woff/IRANSansX-Medium.woff);
-}
+  src: url(../../fonts/woff/IRANSansX-Medium.woff); }
+@font-face {
+  font-family: IRANSANS400;
+  src: url(../../fonts/woff/IRANSansX-Regular.woff); }
 @font-face {
   font-family: IRANSANS600;
-  src: url(../../fonts/woff/IRANSansX-DemiBold.woff);
-}
-
+  src: url(../../fonts/woff/IRANSansX-DemiBold.woff); }
 .btnn {
   font-family: IRANSANS500;
   background-color: #ddc64c;
@@ -24,14 +20,14 @@
   transition: all 100ms linear; }
 
 .btn-hover {
-  font-family: IRANSANS500;
-  background-color: #a18e29;
-  border: 1px solid #a18e29;
-  color: white; }
+  font-family: IRANSANS500 !important;
+  background-color: #a18e29 !important;
+  border: 1px solid #a18e29 !important;
+  color: white !important; }
 
 .btn-outline {
   font-family: IRANSANS500;
-  background-color: unset;
+  background-color: #ffffff00;
   padding: 8px 28px;
   display: inline-flex;
   justify-content: center;

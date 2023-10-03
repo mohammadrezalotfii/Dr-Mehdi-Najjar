@@ -1,11 +1,12 @@
-.menu, a.nav-link:hover {
+.menu {
   font-family: IRANSANS500;
   font-size: 14px;
   color: white;
   border-bottom: 1px solid #060c0800; }
 
-.menu-hover, a.nav-link:hover {
-  border-bottom: 1px solid #ddc64c; }
+.menu-hover {
+  border-bottom: 1px solid #ddc64c;
+  color: white !important; }
 
 .menu-focus {
   background-color: #ddc64c;

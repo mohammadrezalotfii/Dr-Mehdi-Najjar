@@ -18,6 +18,7 @@ $white: #ffffff;
 
 .menu-hover {
   border-bottom: 1px solid $gold-1;
+  color: white !important;
 }
 
 .menu-focus{
@@ -40,9 +41,9 @@ body {
 //   @extend .menu;
 // }
 
-a.nav-link:hover {
-  @extend .menu, .menu-hover;
-}
+// a.nav-link:hover {
+//   @extend .menu, .menu-hover;
+// }
 
 nav.navbar {
   background-color: $green-1;
