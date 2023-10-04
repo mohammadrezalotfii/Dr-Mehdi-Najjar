@@ -18,4 +18,8 @@ body::-webkit-scrollbar-thumb {
   width: 8px;
   background-color: #ddc64c; }
 
+section.paralax {
+  height: 400px;
+  background-color: white; }
+
 /*# sourceMappingURL=main.css.map */
