@@ -59,6 +59,26 @@
   border-bottom: 1px solid #ddc64c;
   color: white; }
 
+.icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ddc64c;
+  cursor: pointer;
+  transition: all 100ms linear; }
+
+.icon-hover {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a18e29;
+  cursor: pointer;
+  text-decoration: none; }
+
 * {
   margin: 0;
   padding: 0;

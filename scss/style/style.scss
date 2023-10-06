@@ -82,6 +82,29 @@ $white: #ffffff;
   color: white;
 }
 
+.icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $gold-1;
+  cursor: pointer;
+  transition: all 100ms linear;
+}
+
+.icon-hover {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $gold-3;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
 * {
   margin: 0;
   padding: 0;

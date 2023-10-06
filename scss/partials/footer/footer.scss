@@ -1,0 +1,51 @@
+$gold-1: #ddc64c;
+$gold-2: #b19c2d;
+$gold-3: #a18e29;
+
+$green-1: #203a27;
+$green-2: #132318;
+$green-3: #0d1810;
+$green-4: #09110b;
+$white: #ffffff;
+
+footer {
+    padding-top: 40px;
+    background-color: $green-1;
+    div{
+        div{
+            flex-direction: row;
+            @media (max-width: 560px){
+                flex-direction: column-reverse;
+            }
+            div:nth-child(1){
+                div{
+                    div{
+                        column-gap: 16px;
+                    }
+                } 
+            }
+            div:nth-child(2){
+                text-align: end;
+                @media (max-width: 560px) {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+.copyright {
+    width: 100%;
+    height: 40px;
+    background-color: $gold-1;
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    h4{
+        font-size: 12px;
+        line-height: 40px;
+        margin: 0;
+    }
+}
+

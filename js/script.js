@@ -43,11 +43,23 @@ document.getElementById("about-us-outline-btn2").classList.add("btn-outline");
 
 // service button
 let sbtn = document.querySelectorAll("div.incart > button");
-sbtn.forEach(function(elem){
-  elem.addEventListener("mouseover",()=>{
+sbtn.forEach(function (elem) {
+  elem.addEventListener("mouseover", () => {
     elem.classList.add("btn-hover");
-  })
-  elem.addEventListener("mouseout",()=>{
+  });
+  elem.addEventListener("mouseout", () => {
     elem.classList.remove("btn-hover");
-  })
-})
+  });
+});
+
+// footer icon
+let icons = document.querySelectorAll("div.icons > div");
+icons.forEach(function (elem) {
+  elem.classList.add("icon");
+  elem.addEventListener("mouseover", () => {
+    elem.classList.add("icon-hover");
+  });
+  elem.addEventListener("mouseout", () => {
+    elem.classList.remove("icon-hover");
+  });
+});
