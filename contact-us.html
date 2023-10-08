@@ -1,40 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./scss/style/style.css">
-    <link rel="stylesheet" href="./scss/main.css">
-</head>
-<body>
-        <!-- start menu -->
-        <nav class="navbar navbar-expand-sm ">
-            <div class="container-fluid d-flex flex-row-reverse justify-content-between alig px-3 px-sm-4">
-              <a class="navbar-brand" href="#"><img src="./media/nav-logo.svg" alt=""></a>
-              <button class="navbar navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class=""><img src="./media/icon/menu-burger.svg" alt=""></span>
-              </button>
-              <div class="collapse navbar-collapse d-sm-flex justify-content py-3" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link px-3 py-2 menu" href="./index.html">خانه</a>
-                </li>
-                  <li class="nav-item">
-                    <a class="nav-link px-3 py-2 menu" href="./about-us.html">درباره ما</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link px-3 py-2 menu menu-focus" href="#">تماس با ما</a>
-                </li>
-                </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ارتباط با ما</title>
+    <link rel="stylesheet" href="./bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./scss/style/style.css" />
+    <link rel="stylesheet" href="./scss/main.css" />
+    <link rel="stylesheet" href="./scss/partials/contact-us/contact-us.css">
+  </head>
+  <body>
+    <!-- start menu -->
+    <nav class="navbar navbar-expand-sm">
+      <div
+        class="container-fluid d-flex flex-row-reverse justify-content-between alig px-3 px-sm-4"
+      >
+        <a class="navbar-brand" href="#"
+          ><img src="./media/nav-logo.svg" alt=""
+        /></a>
+        <button
+          class="navbar navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#collapsibleNavbar"
+        >
+          <span class=""
+            ><img src="./media/icon/menu-burger.svg" alt=""
+          /></span>
+        </button>
+        <div
+          class="collapse navbar-collapse d-sm-flex justify-content py-3"
+          id="collapsibleNavbar"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link px-3 py-2 menu" href="./index.html">خانه</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-2 menu" href="./about-us.html"
+                >درباره ما</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-2 menu menu-focus" href="#"
+                >تماس با ما</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- start header -->
+    <section class="contact">
+      <div class="container">
+        <div class=" d-flex flex-column-reverse flex-lg-row row container ">
+          <div class="col-12 col-lg-6 mb-4">
+            <div class="overflow-hidden">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51812.649218211474!2d51.37645056341553!3d35.74366209723685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e0710d5918403%3A0x74f5290b67841378!2sMilad%20Tower!5e0!3m2!1sen!2snl!4v1696780836788!5m2!1sen!2snl" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 d-flex flex-column justify-content-center mb-4">
+            <div>
+              <h1>ارتباط با ما</h1>
+              <p class="my-4">برای کسب اطلاعات و مشاوره بخش پایین را پر کنید تا ما در اصرع وقت با شما تماس بگیریم و یا می‌توانید از طریق راه‌های ارتباطی دیگر مانند اینستاگرام، تلگرام و واتساپ با ما در تماس باشید.</p>
+              <div class="d-flex flex-wrap  justify-content-between gap-4 mb-4">
+                <input type="text" name="fullName" id="fullName" placeholder="نام و نام‌خانوادگی *" required class="flex-grow-1">
+                <input type="text" name="phoneNum" id="phoneNum" placeholder="شماره تماس *" required class="flex-grow-1">
+              </div>
+              <textarea name="" id="" rows="10" placeholder="پیام شما *" required class="d-block mb-4"></textarea>
+              <div class="d-flex flex-column-reverse flex-lg-row gap-4 align-items-center justify-content-lg-between">
+                <button id="btn-contact">ارسال</button>
+                <div class="d-inline-block">
+                  <div class="d-flex flex-row align-items-center align-items-sm-end icons justify-content-center justify-content-sm-start">
+                    <div class="me-3"><a href=""><img class="m-1" src="./media/icon/Instagram.svg" alt=""></a></div>
+                    <div class="me-3"><a href=""><img class="m-1" src="./media/icon/Telegram.svg" alt=""></a></div>
+                    <div class="me-3"><a href=""><img class="m-1" src="./media/icon/Whatsup.svg" alt=""></a></div>
+                    <div class="me-3"><a href=""><img class="m-1" src="./media/icon/Email.svg" alt=""></a></div>
+                    <div class="me-3"><a href=""><img class="m-1" src="./media/icon/Phone, Call.svg" alt=""></a></div>
+                  </div>
+                </div>
               </div>
             </div>
-          </nav>
-          <!-- start header -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end header -->
 
-          <script src="./js/navbar.js"></script>
-          <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+    <script src="./js/navbar.js"></script>
+    <script src="./bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/contact.js"></script>
+  </body>
 </html>

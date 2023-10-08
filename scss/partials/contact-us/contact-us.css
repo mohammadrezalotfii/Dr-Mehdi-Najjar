@@ -1,0 +1,94 @@
+p {
+  font-family: IRANSANS400;
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify; }
+
+h1 {
+  font-family: IRANSANS600;
+  color: white;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: auto; }
+
+section.contact {
+  width: 100%;
+  margin-top: 48px;
+  display: flex;
+  align-items: center; }
+
+input {
+  display: flex;
+  width: 318px;
+  padding: 8px;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  background: #203a27;
+  border: 0px solid;
+  border-bottom: 2px solid #a18e29;
+  font-family: IRANSANS400;
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify; }
+
+input:focus {
+  outline: unset;
+  border-bottom: 2px solid #ddc64c; }
+
+input::placeholder {
+  font-family: IRANSANS400;
+  color: #dddddd;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify; }
+
+textarea {
+  width: 100%;
+  display: flex;
+  height: 200px;
+  padding: 8px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 10px;
+  background: #203a27;
+  border: 0px solid;
+  border-bottom: 2px solid #a18e29;
+  font-family: IRANSANS400;
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify; }
+
+textarea:focus {
+  outline: unset;
+  border-bottom: 2px solid #ddc64c;
+  font-family: IRANSANS400;
+  color: white;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify; }
+
+textarea::placeholder {
+  font-family: IRANSANS400;
+  color: #dddddd;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: justify; }
+
+@media screen and (min-width: 560px) {
+  iframe {
+    width: 550px;
+    height: 600px; } }
+@media screen and (max-width: 560px) {
+  iframe {
+    width: 100%;
+    height: 500px; } }
+body {
+  background-image: url(../../../media/bg.svg);
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+/*# sourceMappingURL=contact-us.css.map */
